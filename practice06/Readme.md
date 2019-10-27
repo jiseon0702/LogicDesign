@@ -30,7 +30,8 @@
  
 `Please fill up your source`
 
+![]('./figs/펭수.jpg')
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzgwNTEzMzksMTAwNTkyMTkyN119
+eyJoaXN0b3J5IjpbLTc2MzM4NDQxMF19
 -->
