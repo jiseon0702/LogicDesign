@@ -33,5 +33,5 @@
 ![img]('https://github.com/woongchoi-sookmyung/LogicDesign/figs/pengsu.jpg')
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Nzk1NjE2Nl19
+eyJoaXN0b3J5IjpbLTE4OTAxMDI5NjUsMTA4Nzk1NjE2Nl19
 -->
