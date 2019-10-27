@@ -12,7 +12,7 @@
 #### **6개의 LED 중  가장 오른쪽 2개의 LED에 1초간격으로 0~59까지 증가하는 Counter 값 Display**
 
 ## 퀴즈
-### 4초마다 0~59까지 증가하는 Counter 값을 Display 하기 위한 NCO (Numerical Controlled Oscillator)의 입력값은?
+: 4초마다 0~59까지 증가하는 Counter 값을 Display 하기 위한 NCO (Numerical Controlled Oscillator)의 입력값은?
 
 `Please fill up your source`
 
@@ -26,5 +26,6 @@
 `Please fill up your source`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzk3NTAxNDJdfQ==
+eyJoaXN0b3J5IjpbLTE1MTcwNzk0OTUsLTE4Mzk3NTAxNDJdfQ
+==
 -->
