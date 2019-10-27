@@ -15,6 +15,7 @@
 
 ### FPGA 실습 (팀)
 : 6개의 LED 중  가장 오른쪽 2개의 LED에 1초간격으로 0~59까지 증가하는 Counter 값 Display
+
 : NCO(Numerical Controlled Oscillator) 입력 바꿔서 2초 혹은 4초 간격으로 증가하는 코드 테스트
 
 ## 퀴즈
