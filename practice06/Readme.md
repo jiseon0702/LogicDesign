@@ -30,8 +30,8 @@
  
 `Please fill up your source`
 
-![]('./figs/펭수.jpg')
+![]('https://github.com/woongchoi-sookmyung/LogicDesign/blob/master/practice06/figs/%ED%8E%AD%EC%88%98.jpg')
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzM4NDQxMF19
+eyJoaXN0b3J5IjpbLTYyMDk3NjY5XX0=
 -->
