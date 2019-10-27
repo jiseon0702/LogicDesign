@@ -9,9 +9,9 @@
 : 저번 시간에 만든 second counter  및 Submodule 1/2를 이용하여  실습 장비의 LED에 맞는 Display Module 설계
 
 ### FPGA 실습 (팀)
- #### **6개의 LED 중  가장 오른쪽 2개의 LED에 1초간격으로 0~59까지 증가하는 Counter 값 Display**
+#### **6개의 LED 중  가장 오른쪽 2개의 LED에 1초간격으로 0~59까지 증가하는 Counter 값 Display**
   
- ## 퀴즈
+## 퀴즈
  ### 4초마다 0~59까지 증가하는 Counter 값을 Display 하기 위한 NCO (Numerical Controlled Oscillator)의 입력값은?
 
     Please fill up your source
@@ -26,5 +26,5 @@
     Please fill up your source
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTIzNjI2N119
+eyJoaXN0b3J5IjpbLTIwMjAwNjY3MzcsMTUxNTIzNjI2N119
 -->
