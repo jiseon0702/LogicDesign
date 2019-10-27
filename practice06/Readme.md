@@ -30,7 +30,7 @@
  
 `Please fill up your source`
 
-![img]('https://github.com/woongchoi-sookmyung/LogicDesign/figs/pengsu.jpg')
+![img](https://github.com/woongchoi-sookmyung/LogicDesign/blob/master/practice06/figs/pengsu.jpg)
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE4OTAxMDI5NjUsMTA4Nzk1NjE2Nl19
