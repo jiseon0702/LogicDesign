@@ -24,10 +24,17 @@
 wire  [41:0] six_digit_seg;
 assign       six_digit_seg = { 4{7'b0000000}, seg_left, seg_right }
 ```
-- Q1 - 고정 LED (왼쪽 4개) AAAA 출력
-
+> Q1 - 고정 LED (왼쪽 4개) AAAA 출력
 : `AA_AA_00`, `AA_AA_01`, `AA_AA_02`, … 순으로 LED 변경
+
 `Please fill up your source`
+
+> Q2 - 고정 LED 없이 2개의 LED 단위로 1초 Counter 값 표시
+: `00_00_00`, `01_01_01`, `02_02_02`, … 순으로 LED 변경
+
+`Please fill up your source`
+
+
 
 ## 결과
 ### **Top Module 의 DUT/TestBench Code 및 Waveform 검증**
@@ -41,6 +48,6 @@ assign       six_digit_seg = { 4{7'b0000000}, seg_left, seg_right }
 ![](https://github.com/woongchoi-sookmyung/LogicDesign/blob/master/practice06/figs/pengsu.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTIyNjQzMSwxNjQzNzc5Njk3LDEwOD
+eyJoaXN0b3J5IjpbMTUzNDczNTMyMSwxNjQzNzc5Njk3LDEwOD
 c5NTYxNjZdfQ==
 -->
