@@ -10,6 +10,9 @@
 #### **Submodule 2**
 : 0~59의 값을 갖는 6bit 입력 신호를 받아 십의 자리 수와 일의 자리 수를 각각 4bit으로 출력
 
+#### **Submodule 3**
+: 6개의 LED에 원하는 값을 Display하는 모듈 설계
+
 #### **Top Module**
 : 저번 시간에 만든 second counter  및 Submodule 1/2를 이용하여  실습 장비의 LED에 맞는 Display Module 설계
 
@@ -27,16 +30,16 @@ wire  [41:0] six_digit_seg;
 assign       six_digit_seg = { 4{7'b0000000}, seg_left, seg_right }
 ```
 > Q1 - 고정 LED (왼쪽 4개) AAAA 출력
+
 : `AA_AA_00`, `AA_AA_01`, `AA_AA_02`, … 순으로 LED 변경
 
 `Please fill up your source`
 
 > Q2 - 고정 LED 없이 2개의 LED 단위로 1초 Counter 값 표시
+
 : `00_00_00`, `01_01_01`, `02_02_02`, … 순으로 LED 변경
 
 `Please fill up your source`
-
-
 
 ## 결과
 ### **Top Module 의 DUT/TestBench Code 및 Waveform 검증**
@@ -50,5 +53,5 @@ assign       six_digit_seg = { 4{7'b0000000}, seg_left, seg_right }
 ![](https://github.com/woongchoi-sookmyung/LogicDesign/blob/master/practice06/figs/pengsu.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjIxNjUxNiw0NjkzNDIxMl19
+eyJoaXN0b3J5IjpbMzMyODMwMzM0XX0=
 -->
