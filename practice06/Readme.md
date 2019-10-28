@@ -41,13 +41,12 @@ assign       six_digit_seg = { 4{7'b0000000}, seg_left, seg_right }
  
  `Please fill up your source`
      
-### **FPGA 동작 사진**
+### **FPGA 동작 사진 (3개- 일반, Q1, Q2)**
  
 `Please fill up your source`
 
 ![](https://github.com/woongchoi-sookmyung/LogicDesign/blob/master/practice06/figs/pengsu.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDczNTMyMSwxNjQzNzc5Njk3LDEwOD
-c5NTYxNjZdfQ==
+eyJoaXN0b3J5IjpbMjA4NTk4MjQzOV19
 -->
