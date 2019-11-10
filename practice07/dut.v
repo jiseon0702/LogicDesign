@@ -1,7 +1,7 @@
 //	==================================================
 //	Copyright (c) 2019 Sookmyung Women's University.
 //	--------------------------------------------------
-//	FILE 			: practice06.v
+//	FILE 			: practice07.v
 //	DEPARTMENT		: EE
 //	AUTHOR			: WOONG CHOI
 //	EMAIL			: woongchoi@sookmyung.ac.kr
@@ -9,9 +9,9 @@
 //	RELEASE HISTORY
 //	--------------------------------------------------
 //	VERSION			DATE
-//	0.0				2019-10-28
+//	0.0				2019-11-09
 //	--------------------------------------------------
-//	PURPOSE			: Seven-Segment Display
+//	PURPOSE			: Digital Clock
 //	==================================================
 
 //	--------------------------------------------------
