@@ -377,8 +377,6 @@ input		i_min_clk	;
 input		clk		;
 input		rst_n		;
 
-
-wire		max_hit_sec	;
 hms_cnt		u0_hms_cnt(
 		.o_hms_cnt	( o_sec		),
 		.o_max_hit	( o_max_hit_sec	),
@@ -386,7 +384,6 @@ hms_cnt		u0_hms_cnt(
 		.clk		( i_sec_clk	),
 		.rst_n		( rst_n		));
 
-wire		max_hit_min	;
 hms_cnt		u1_hms_cnt(
 		.o_hms_cnt	( o_min		),
 		.o_max_hit	( o_max_hit_min	),
