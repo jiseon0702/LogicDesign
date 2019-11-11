@@ -1,19 +1,17 @@
-# Lab 06
+# Lab 07
 
 ## 실습 내용
 
-### **7 – Segment Display Decoder (개별)**
+### **디지털 시계 (분:초) 부분 설계 - Debounce 적용 전**
 
-#### **Submodule 1**
-: 0~9의 값을 갖는 4bit 입력 신호를 받아 7bit FND  segment  값 출력
+#### GitHub에 제공된 소스코드 사용 - 다른 모듈 건드리지 말 것
 
-#### **Submodule 2**
-: 0~59의 값을 갖는 6bit 입력 신호를 받아 십의 자리 수와 일의 자리 수를 각각 4bit으로 출력
+#### top module (top_hms_clock) 만 채워서 설계
 
-#### **Submodule 3**
-: 6개의 LED에 원하는 값을 Display하는 모듈 설계
+#### 이번 실습은 Test Bench 생략
 
-#### **Top Module**
+
+### **FPGA**
 : 저번 시간에 만든 second counter  및 Submodule 1/2를 이용하여  실습 장비의 LED에 맞는 Display Module 설계
 
 ### FPGA 실습 (팀)
