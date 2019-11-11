@@ -3,53 +3,34 @@
 ## 실습 내용
 
 ### **디지털 시계 (분:초) 부분 설계 - Debounce 적용 전**
+!()[https://github.com/woongchoi-sookmyung/LogicDesign/blob/master/practice07/figs/block_diagram.png]
 
 - GitHub에 제공된 소스코드 사용 - 다른 모듈 건드리지 말 것
 
-#### top module (top_hms_clock) 만 채워서 설계
+- top module (top_hms_clock) 만 채워서 설계
 
-#### 이번 실습은 Test Bench 생략
+- 이번 실습은 Test Bench 생략가능 (ModelSim 검증하고 FPGA 하는게 더 빠른 경우가 많음)
 
 
 ### **FPGA**
-: 저번 시간에 만든 second counter  및 Submodule 1/2를 이용하여  실습 장비의 LED에 맞는 Display Module 설계
 
-### FPGA 실습 (팀)
-: 6개의 LED 중  가장 오른쪽 2개의 LED에 1초간격으로 0~59까지 증가하는 Counter 값 Display
+- 스위치의Bounce 현상에대해관찰
+- 코드를수정하여Debounce적용후스위치테스트
 
-: NCO(Numerical Controlled Oscillator) 입력 바꿔서 4초 간격으로 증가하는 코드 테스트
+### **Quiz**
 
-: Quiz 관련 테스트
+- 코드에서i_sw2를 누르는 순간이 아닌 `때는 순간 숫자가 증가`하게 하려면?
 
-## 퀴즈
-### 아래 코드 일부를 수정하여 다음을 구하시오
 ```verilog
-wire  [41:0] six_digit_seg;
-assign       six_digit_seg = { 4{7'b0000000}, seg_left, seg_right }
 ```
-> Q1 - 고정 LED (왼쪽 4개) AAAA 출력
 
-: `AA_AA_00`, `AA_AA_01`, `AA_AA_02`, … 순으로 LED 변경
+### **Project Guide : 질의응답불가**
 
-`Please fill up your source`
+- 시:분:초에 대한 디지털 시계 완성
 
-> Q2 - 고정 LED 없이 2개의 LED 단위로 1초 Counter 값 표시
+- 설정모드에서 7-segment의 dp를 활용한 설계
 
-: `00_00_00`, `01_01_01`, `02_02_02`, … 순으로 LED 변경
+: 예)초 설정 시 - 초 부분의 dp led를 점등
 
-`Please fill up your source`
-
-## 결과
-### **Top Module 의 DUT/TestBench Code 및 Waveform 검증**
- 
- `Please fill up your source`
-     
-### **FPGA 동작 사진 (3개- 일반, Q1, Q2)**
- 
-`Please fill up your source`
-
-![](https://github.com/woongchoi-sookmyung/LogicDesign/blob/master/practice06/figs/pengsu.jpg)
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyODMwMzM0XX0=
--->
+- Blink 모드개발
+: 설정모드에서 설정부분을 깜빡이게 Display
